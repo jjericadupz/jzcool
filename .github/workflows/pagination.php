@@ -6,8 +6,6 @@ if(!$conn = mysqli_connect('localhost','root','','testdb')){
 	
 echo '<a href="?page=1">Products</a>';
 
-
-
 if(isset($_GET['page'])){	
 			echo '<br>';
 			echo '<br>';
