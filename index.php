@@ -79,7 +79,7 @@ function displayLoginPage(){
 					header('location: /index.php');
 					//echo "clicked!";
 				}else{
-					echo "Walang dito hinahanap mo! <br> pokinanginang nanggigigil ako sayo!!! <br> Hint: username: admin password: admin";
+					echo "Walang dito hinahanap mo! <br> pokinanginang nanggigigil ako sayo!!! <br> Try mo: username: admin password: admin";
 				}
 				mysqli_close($conn);
 			}
